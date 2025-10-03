@@ -1,0 +1,16 @@
+Parkinlot:
+- Code
+- ParkedCars
+- Capacity
+- OpenHour
+- CloseHour
+
+ParkedCar:
+- Code
+- Plate
+- Date
+
+
+Use cases:
+- EnterParkingLot
+- LeaveParkingLot
