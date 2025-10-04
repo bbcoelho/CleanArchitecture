@@ -26,4 +26,8 @@ export default class ParkingLot {
     public getCloseHour(): number {
         return this.closeHour;
     }
+
+    public isOpen(date: Date): boolean {
+        return date.getHours() >= this.openHour && date.getHours() <= this.closeHour;
+    }
 }
