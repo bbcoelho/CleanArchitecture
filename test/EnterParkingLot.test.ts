@@ -5,6 +5,6 @@ import ParkingLotRepositoryMemory from "../src/core/infra/repositories/ParkingLo
 test("EnterParkingLot", () => {
 	const parkingLotRepository = new ParkingLotRepositoryMemory();
 	const enterParkingLot = new EnterParkingLot(parkingLotRepository);
-	const parkingLot = enterParkingLot.execute('shopping');
+	const parkingLot = enterParkingLot.execute('shopping', 'OPF-5801', new Date("2025-01-01T10:00:00"));
 	expect(parkingLot.getCode()).toBe("shopping");
 });
