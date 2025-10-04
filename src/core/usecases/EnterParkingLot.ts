@@ -1,10 +1,10 @@
 import ParkingLot from "../entities/ParkingLot.js";
-import type ParkingLotDataAccess from "../dataAccess/ParkingLotDataAccess.js";
+import type IParkingLotDataAccess from "../dataAccess/IParkingLotDataAccess.js";
 
 export class EnterParkingLot {
-    private parkingLotRepository: ParkingLotDataAccess;
+    private parkingLotRepository: IParkingLotDataAccess;
 
-    constructor(parkingLotRepository: ParkingLotDataAccess) {
+    constructor(parkingLotRepository: IParkingLotDataAccess) {
         this.parkingLotRepository = parkingLotRepository;
     }
 

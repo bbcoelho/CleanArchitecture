@@ -1,4 +1,4 @@
-import type ParkingLotDataAccess from "../../dataAccess/ParkingLotDataAccess.js";
+import type ParkingLotDataAccess from "../../dataAccess/IParkingLotDataAccess.js";
 import ParkingLot from "../../entities/ParkingLot.js";
 
 export default class ParkingLotRepositoryMemory implements ParkingLotDataAccess {
