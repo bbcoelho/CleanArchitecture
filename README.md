@@ -1,0 +1,3 @@
+# Clean Architecture Study Project
+
+This is a study project designed to learn and practice Clean Architecture concepts. The project demonstrates the implementation of Clean Architecture principles including separation of concerns, dependency inversion, and the organization of code into distinct layers (entities, use cases, interface adapters, and frameworks/drivers). Through this hands-on approach, the project serves as a practical exploration of how to build maintainable, testable, and scalable software systems following Uncle Bob's Clean Architecture guidelines.
